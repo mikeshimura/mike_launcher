@@ -34,7 +34,9 @@ OS = WIN or MAC
 
 HIS = History file name.
 
-UNZIP = classes.zip   This mean after download classes.zip will be unzipped. 
+UNZIP = classes.zip   This mean after download classes.zip will be unzipped.
+
+Make sure that AWS_ACCESS_KEY_ID is IAM which has only authorizathion to read S3.
 
 $godesktop-watch.txt content are as follows.
 
