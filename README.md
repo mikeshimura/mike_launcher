@@ -5,11 +5,11 @@ You pass user only 2 files for install.
 
 For example your application is godesktop.
 
-$godesktop.ini and godesktop.exe for windows or godesktop for Mac.
+$javadesktop.ini andjavadesktop.exe for windows or javadesktop for Mac.
 
 Zip and other program data are stored in Amazon S3.
 
-At initial startup zip file is downloaded and unzipped, and then all files these may change will be downloaded.
+At initial startup, zip file is downloaded and unzipped, and then all files these may change will be downloaded.
 
 After that, godesktop.exe or godesktop execute command which stored in $godesktop.ini.
 
@@ -24,8 +24,26 @@ OS = WIN
 AWS_ACCESS_KEY_ID = AKIAJ5DFKKOTLS2J4IFA
 AWS_SECRET_ACCESS_KEY = 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
 BUCKET =desktoptool
-ZIP = $godesktop.zip
-WATCH= $godesktop-watch.txt
+ZIP = $javadesktop.zip
+WATCH= $javadesktop-watch.txt
 HIS = $his.json
-CMD = godesktopwin.exe
+UNZIP = classes.zip
+CMD = java -cp lib/*;classes com.mssoftech.javadesktop.Application
 ```
+OS = WIN or MAC
+
+HIS = History file name.
+
+UNZIP = classes.zip   This mean after download classes.zip will be unzipped. 
+
+$godesktop-watch.txt content are as follows.
+
+```
+assets/tag/index.tag
+assets/tag/tagcommon.js
+godesktopwin.exe
+```
+
+Please down load mike_launcher.exe or mike_launcher from following Google Drive and rename it to your application name.
+
+https://drive.google.com/open?id=1tIh_Ye-6uCAvrXBI7OWG_L7LFq_2ukKs
