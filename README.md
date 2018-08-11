@@ -3,9 +3,9 @@
 
 You pass user only 2 files for install.
 
-For example your application is godesktop.
+For example your application is javadesktop.
 
-$javadesktop.ini andjavadesktop.exe for windows or javadesktop for Mac.
+$javadesktop.ini and javadesktop.exe for windows or javadesktop for Mac.
 
 Zip and other program data are stored in Amazon S3.
 
