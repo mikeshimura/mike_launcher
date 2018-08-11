@@ -21,8 +21,8 @@ $godesktop.ini content are as follows.
 ```
 [default]
 OS = WIN
-AWS_ACCESS_KEY_ID = AKIAJ5DFKKOTLS2J4IFA
-AWS_SECRET_ACCESS_KEY = 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
+AWS_ACCESS_KEY_ID = XXXXXXXXXXXXXXX
+AWS_SECRET_ACCESS_KEY = XXXXXXXXXXXXXXXXXXXX
 BUCKET =desktoptool
 ZIP = $javadesktop.zip
 WATCH= $javadesktop-watch.txt
