@@ -21,6 +21,7 @@ $godesktop.ini content are as follows.
 ```
 [default]
 OS = WIN
+REGION = us-east-1
 AWS_ACCESS_KEY_ID = XXXXXXXXXXXXXXX
 AWS_SECRET_ACCESS_KEY = XXXXXXXXXXXXXXXXXXXX
 BUCKET =desktoptool
